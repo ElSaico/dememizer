@@ -1,0 +1,12 @@
+{
+  "name": "desmemezador",
+  "version": "0.0.1",
+  "description": "Bloqueador avancado de memes",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build"
+  },
+  "devDependencies": {
+    "webextension-toolbox": "latest"
+  }
+}
