@@ -1,9 +1,14 @@
-browser.runtime.onInstalled.addListener((details) => {
-  console.log('previousVersion', details.previousVersion)
-})
+const blockhash = require('./vendor/blockhash');
 
-browser.browserAction.setBadgeText({
-  text: `'Allo`
-})
-
-console.log(`'Allo 'Allo! Event Page for Browser Action`)
+function loadImage(url) {
+    let canvas = document.createElement('canvas');
+    let context = canvas.getContext('2d');
+    let image = document.createElement('img');
+    image.onload = function () {
+        context.drawImage(image, 0, 0);
+        const imageData = context.getImageData(0, 0, image.width, image.height);
+        const hash = blockhash.blockhashData(imageData, 16, 2);
+        // send hash back
+    };
+    image.src = url;
+}

@@ -8,10 +8,5 @@
   },
   "devDependencies": {
     "webextension-toolbox": "latest"
-  },
-  "dependencies": {
-    "blockhash": "^0.2.0",
-    "jimp": "^0.6.4",
-    "zepto": "^1.2.0"
   }
 }
