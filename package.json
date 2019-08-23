@@ -1,12 +1,17 @@
 {
-  "name": "desmemezador",
-  "version": "0.0.1",
-  "description": "Bloqueador avancado de memes",
+  "name": "dememizer",
+  "version": "0.1.0",
+  "description": "Advanced meme blocker",
   "scripts": {
     "dev": "webextension-toolbox dev",
     "build": "webextension-toolbox build"
   },
   "devDependencies": {
     "webextension-toolbox": "latest"
+  },
+  "dependencies": {
+    "blockhash": "^0.2.0",
+    "jimp": "^0.6.4",
+    "zepto": "^1.2.0"
   }
 }

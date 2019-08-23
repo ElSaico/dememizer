@@ -1,6 +1,6 @@
-# desmemezador
+# dememizer
 
-Bloqueador avancado de memes
+Advanced meme blocker.
 
 ## Install
 
