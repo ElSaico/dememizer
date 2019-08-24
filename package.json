@@ -1,6 +1,8 @@
 {
   "name": "dememizer",
   "version": "0.1.0",
+  "author": "Bruno Marques <bruno@bmarques.net>",
+  "license": "MPL-2.0",
   "description": "Advanced meme blocker",
   "scripts": {
     "dev": "webextension-toolbox dev",
