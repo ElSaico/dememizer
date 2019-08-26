@@ -6,9 +6,11 @@
   "description": "Advanced meme blocker",
   "scripts": {
     "dev": "webextension-toolbox dev",
-    "build": "webextension-toolbox build"
+    "build": "webextension-toolbox build",
+    "run:firefox": "web-ext run -s dist/firefox"
   },
   "devDependencies": {
+    "web-ext": "^3.1.1",
     "webextension-toolbox": "latest"
   }
 }
