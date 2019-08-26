@@ -11,9 +11,7 @@
     "128": "images/icon-128.png"
   },
   "background": {
-    "scripts": [
-      "scripts/background.js"
-    ]
+    "page": "pages/background.html"
   },
   "browser_action": {
     "default_icon": {
@@ -31,7 +29,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.twitter.com/*"
+        "*://*.twitter.com/*",
+        "*://pbs.twimg.com/*"
       ],
       "js": [
         "scripts/twitter.js"
