@@ -10,7 +10,7 @@
     "run:firefox": "web-ext run -s dist/firefox"
   },
   "devDependencies": {
-    "web-ext": "^3.1.1",
+    "web-ext": "^4.2.0",
     "webextension-toolbox": "latest"
   }
 }
