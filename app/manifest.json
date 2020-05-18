@@ -28,10 +28,13 @@
       "38": "images/icon-38.png"
     },
     "default_title": "__MSG_browserActionTitle__",
-    "default_popup": "pages/popup.html"
+    "default_popup": "pages/popup.html",
+    "browser_style": true,
+    "__chrome__chrome_style": true
   },
   "options_ui": {
     "page": "pages/options.html",
-    "chrome_style": true
+    "browser_style": true,
+    "__chrome__chrome_style": true
   }
 }

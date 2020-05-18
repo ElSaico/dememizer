@@ -1,1 +1,1 @@
-console.log(`'Allo 'Allo! Popup`)
+require('../styles/popup');
