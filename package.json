@@ -5,8 +5,10 @@
   "license": "MPL-2.0",
   "description": "Advanced meme blocker",
   "scripts": {
-    "dev": "webextension-toolbox dev",
-    "build": "webextension-toolbox build"
+    "dev:firefox": "webextension-toolbox dev firefox",
+    "build:firefox": "webextension-toolbox build firefox",
+    "dev:chrome": "webextension-toolbox dev chrome",
+    "build:chrome": "webextension-toolbox build chrome"
   },
   "devDependencies": {
     "bulma": "^0.8.2",
@@ -15,6 +17,7 @@
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
-    "webextension-toolbox": "latest"
+    "webextension-toolbox": "latest",
+    "zepto": "^1.2.0"
   }
 }
